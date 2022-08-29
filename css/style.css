@@ -8,7 +8,7 @@ body {
     background-color: #c8c8c8;
 }
 
-@media (min-width: 600px) and (max-width:1800px) {
+@media (min-width: 601px) and (max-width:1800px) {
 
 .header{
     display: flex;
@@ -218,6 +218,214 @@ h1{
 }
 
 }
+
+@media (max-width: 600px) {
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-aroud;
+        background: #BC0000;
+        padding: 8px;
+        height: 45px;
+        gap: 10px;
+    }
+    
+    .img-menu {
+        height: 20px;
+    }
+    
+    .display-input{
+        display: flex;
+    
+    }
+    
+    .input-header {
+        padding-bottom: 3px;
+        padding-left: 16px;
+        border: none;
+        width:100%;
+    }
+    
+    .input-header::placeholder{
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 200px;
+        font-size: 13px;
+        line-height: 11px;
+        color: #878787;
+    }
+    
+    .btn-menu {
+        height: 50px;
+        border: none;
+        background-color: transparent;
+        transform: scale(1.5);
+    }
+    
+    .img-banner{
+        width: 100%;
+    }
+    
+    .informativo{
+        background: #BC0000;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 8px;
+        margin-top: -5px;
+    }
+    
+    .informativo>p{
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 900;
+        font-size: 14px;
+        color: #E9D100;
+    
+    }
+    
+    .card-pai{
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        transition: 0.5s;
+    }
+    
+    .cards{
+        width: 34%;
+        padding: 20px;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+        transition: 0.5s;
+    }
+    
+    .img-cards {
+        width: 95%;
+        height: auto;
+    }
+    
+    .p-descritivo{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 6px;
+        line-height: 150.02%;
+        color: #000000;
+    }
+    
+    .valor-produto{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 150.02%;
+        color: #000000; 
+    }
+    
+    .modo-pagamento{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 7px;
+        line-height: 150.02%;
+        color: #02660C;
+    }
+    
+    .assine-newsletter {
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .img-foguete{
+        margin-left: 4%;
+    }
+    
+    .p-foguete{
+        margin-left: 5%;
+        margin-top: 10px;
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 129.52%;  
+        color: #BC0000;
+    }
+    
+    .input-email{
+        display: flex;
+        justify-content: center;
+        margin-top: 6px;
+    }
+    
+    .config-input-email{
+        width: 70%;
+        padding-left: 4px;
+        border: none;
+    }
+    
+    .config-input-email::placeholder{
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 300;
+        font-size: 9px;
+        line-height: 100%;
+        color: #878787;
+    }
+    
+    .p-final {
+        margin-left: 13%;
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 300;
+        font-size: 8px;
+        line-height: 100.52%;
+        color: #BC0000;
+        padding: 10px;
+    }
+       
+    footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        background: #BC0000;
+    }
+    
+    .card-rodape {
+        margin-top: 6px;
+        text-align: center;
+    }
+    
+    h1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 0.12em;
+        color: #E9D100;
+    }
+    
+    .p-rodape{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 10px;
+        color: #E9D100;
+        margin-bottom: 6px;
+    }
+    
+    .p-rodape-final{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 6px;
+        line-height: 150.02%;
+        text-align: center;
+        color: #E9D100;
+    }
+    
+    }
 
 /* Estilazação da página de login */
 .container-login {
